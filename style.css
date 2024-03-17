@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #100367;
+}
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+    border: #e2094a double 15px ;
+}
+.app h1{
+    font-weight:25px ;
+    color:#100367 ;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+
+}
+.quiz{
+    padding: 15px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #100367;
+    font-weight: 600;
+}
+.btn{
+   background: #fff;
+   color: #222;
+   font-weight: 700;
+   width: 100%;
+   border: 1px solid #222;
+   padding: 10px ;
+   margin: 10px 0;
+   text-align: left;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    margin:20px auto 0;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    display: block;
+}
+.correct{
+    background-color: #7fee85;
+}
+.incorrect{
+    background-color: #f73636;
+}
